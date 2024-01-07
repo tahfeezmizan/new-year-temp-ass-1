@@ -16,7 +16,7 @@ section {
 .container {
     width: 1320px;
     margin: 0 auto;
-    
+    overflow: hidden;    
 }
 
 .primary-btn {
