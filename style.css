@@ -75,7 +75,8 @@ section {
     margin-bottom: 48px;
 }
 
-.discount-text {
+.discount-text,
+.holiday-sub-title {
     color: #E01931;
     font-family: 'Inter';
     font-size: 24px;
@@ -231,3 +232,26 @@ section {
     width: 140px;
     height: 140px;
 }
+
+/* holiday section design start here  */
+.holidaytext{
+    text-align: center;
+}
+
+.holiday-sub-title{
+    color: #070211;
+}
+
+.holiday-title {
+text-align: center;
+font-family: "Merriweather";
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-red{
+    color: #F00;
+}
+
+
+
+
