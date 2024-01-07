@@ -16,6 +16,7 @@ section {
 .container {
     width: 1320px;
     margin: 0 auto;
+    
 }
 
 .primary-btn {
@@ -234,24 +235,38 @@ section {
 }
 
 /* holiday section design start here  */
-.holidaytext{
+.holidaytext {
     text-align: center;
+    margin-bottom: 65px;
 }
 
-.holiday-sub-title{
+.holiday-sub-title {
     color: #070211;
 }
 
 .holiday-title {
-text-align: center;
-font-family: "Merriweather";
-font-size: 72px;
-font-weight: 900;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
 }
-.holiday-red{
+
+.holiday-red {
     color: #F00;
 }
 
+.holiday-dec {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
 
-
-
+.holiday-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
