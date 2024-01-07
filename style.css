@@ -209,7 +209,7 @@ section {
     width: 364.844px;
     height: 364.844px;
     padding: 20px;
-    border: 15px solid #f00;
+    border: 12px solid #f00;
     border-radius: 100%;
 }
 
@@ -219,9 +219,15 @@ section {
     font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
+    margin-top: 60px;
     margin-bottom: 16px;
 }
 
 .offecr-dec-last {
     margin-bottom: 42px;
+}
+
+.offer-img {
+    width: 140px;
+    height: 140px;
 }
