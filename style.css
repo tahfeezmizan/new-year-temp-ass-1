@@ -322,7 +322,7 @@ section#portfolio {
     margin-bottom: 48px;
 }
 
-.portfolio-image {
+.portfolio-image {  
     padding: 10px;
 }
 
@@ -424,7 +424,7 @@ footer {
     justify-content: space-around;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 50px;
-    column-gap: 556px;
+    column-gap: 535px;
 }
 .address-icons {
     padding-right: 146px;
@@ -437,7 +437,11 @@ font-weight: 500;
 line-height: 40px;
 }
 
-.socal-icons {
+.address-data i {
+    padding-right: 15px;
+}
+
+.social-icons {
     text-align: center;
 }
 
