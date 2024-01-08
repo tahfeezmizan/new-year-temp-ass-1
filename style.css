@@ -411,3 +411,24 @@ footer {
     column-gap: 690px;
 }
 
+.address-data{
+    color: #FFF;
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+
+.socal-icons {
+    text-align: center;
+}
+.socal-icons img{
+    width: 12%;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.footer-address:last-child{
+    border-bottom: none;
+    margin-top: 50px;
+}
