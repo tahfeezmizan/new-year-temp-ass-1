@@ -394,6 +394,20 @@ input[type="submit"] {
 
 footer {
     background: #070211;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
+.footer-content {
+    padding-top: 80px;
+}
+.footer-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 50px;
+    column-gap: 690px;
+}
 
