@@ -267,10 +267,26 @@ section {
 
 .holiday-container {
     display: flex;
+    gap: 91px;
     align-items: center;
     justify-content: space-around;
 }
 
-.off-50\% {
+.holiday-container .off-50 {
     position: absolute;
+    left: 55%;
+    margin-bottom: 170px;
+}
+
+.red-rectangle {
+    margin-top: -200px;
+}
+
+.rectangle {
+    margin-bottom: 170px;
+}
+
+.gift-box {
+    z-index: 0;
+
 }
