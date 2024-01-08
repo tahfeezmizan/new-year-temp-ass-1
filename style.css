@@ -307,3 +307,20 @@ section {
     text-align: start;
     margin-bottom: 48px;
 }
+.portfolio-image {
+    padding: 10px;
+}
+.portfolio-image:first-child {
+    padding-left: 0;
+}
+.portfolio-image:nth-child(3) {
+    padding-right: 0px;
+}
+
+.portfolio-image:nth-child(4) {
+    padding-left: 0;
+}
+.portfolio-image:nth-child(6) {
+    padding-right: 0px;
+}
+
