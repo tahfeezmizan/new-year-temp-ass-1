@@ -270,3 +270,7 @@ section {
     align-items: center;
     justify-content: space-around;
 }
+
+.off-50\% {
+    position: absolute;
+}
