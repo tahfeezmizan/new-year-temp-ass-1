@@ -16,7 +16,7 @@ section {
 .container {
     width: 1320px;
     margin: 0 auto;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 .primary-btn {
@@ -192,7 +192,8 @@ section {
 }
 
 .offer-title,
-.portfolio-title {
+.portfolio-title,
+.newlatter-title {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
@@ -258,7 +259,8 @@ section {
 
 .offer-dec,
 .holiday-dec,
-.portfolio-dec {
+.portfolio-dec,
+.newlatter-dec {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: 'Inter';
@@ -296,23 +298,27 @@ section {
 
 /* portfolio section design start here  */
 
-.portfolio-sub-title{
+.portfolio-sub-title {
     margin-bottom: 16px;
 }
 
-.portfolio-title{
+.portfolio-title {
     margin-bottom: 22px;
 }
+
 .portfolio-dec {
     text-align: start;
     margin-bottom: 48px;
 }
+
 .portfolio-image {
     padding: 10px;
 }
+
 .portfolio-image:first-child {
     padding-left: 0;
 }
+
 .portfolio-image:nth-child(3) {
     padding-right: 0px;
 }
@@ -320,7 +326,66 @@ section {
 .portfolio-image:nth-child(4) {
     padding-left: 0;
 }
+
 .portfolio-image:nth-child(6) {
     padding-right: 0px;
 }
 
+
+/* newslatter section design start here  */
+
+.newslatter-content {
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.newslatter-icon{
+    margin-bottom: 40px;
+}
+
+.newlatter-title{
+    margin-bottom: 22px;
+}
+
+.newlatter-dec {
+    margin-bottom: 48px;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 25px 0;
+}
+
+
+input[type="email"] {
+    background: #fff;
+    padding: 20px 125px 20px 35px;
+    border-radius: 50px 0px 0px 50px;
+    color: #f00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[type="submit"] {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 18.5px 55px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #F00;
+    border-radius: 0px 45px 45px 0px;
+}
