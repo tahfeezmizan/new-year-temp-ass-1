@@ -327,7 +327,7 @@ section#portfolio {
 }
 
 .portfolio-image:hover {
-    filter: brightness(80%);
+    filter: brightness(75%);
 	transition: .4s ease-in-out;
 }
 
