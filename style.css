@@ -408,9 +408,11 @@ footer {
     justify-content: space-around;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 50px;
-    column-gap: 690px;
+    column-gap: 556px;
 }
-
+.address-icons {
+    padding-right: 146px;
+}
 .address-data{
     color: #FFF;
 font-family: 'Inter';
@@ -422,6 +424,7 @@ line-height: 40px;
 .socal-icons {
     text-align: center;
 }
+
 .socal-icons img{
     width: 12%;
     margin-right: 25px;
@@ -431,4 +434,5 @@ line-height: 40px;
 .footer-address:last-child{
     border-bottom: none;
     margin-top: 50px;
+    column-gap: 880px;
 }
