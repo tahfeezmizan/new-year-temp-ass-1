@@ -63,6 +63,10 @@ section {
 
 /* discount section design start here  */
 
+#discount-section{
+    background: #f7f7f7;
+}
+
 .discount-content {
     text-align: center;
 }
@@ -175,6 +179,9 @@ section {
 
 
 /* offer section design start here  */
+#offer-section{
+    background: #f7f7f7;
+}
 
 .offer-content {
     display: flex;
@@ -298,6 +305,10 @@ section {
 
 /* portfolio section design start here  */
 
+section#portfolio {
+    background: #f7f7f7;
+}
+
 .portfolio-sub-title {
     margin-bottom: 16px;
 }
@@ -313,6 +324,11 @@ section {
 
 .portfolio-image {
     padding: 10px;
+}
+
+.portfolio-image:hover {
+    filter: brightness(80%);
+	transition: .4s ease-in-out;
 }
 
 .portfolio-image:first-child {
